@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HouseVOP</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a class="logo" href="">
+          <img class="img" src="./img/logo.svg" alt="logo" />
+        </a>
+
+        <div class="links">
+          <a class="link" href="#testimonials">О комплексе</a>
+          <a class="link" href="#cta">Район</a>
+          <a class="link" href="#video">Каталог квартир</a>
+          <a class="link" href="#cta_form">Ипотека</a>
+          <a class="link" href="#appartments">Контакты</a>
+        </div>
+
+        <img
+          class="burger_menu"
+          src="./img/burger_menu.png"
+          alt="burger_menu"
+        />
+      </nav>
+
+      <div class="container">
+        <h1 class="title">
+          Жилой комплекс <br />
+          в историческом центре
+        </h1>
+
+        <img class="imgMouse" src="./img/mouse.svg" alt="mouse" />
+
+        <div class="block">
+          <div class="box">
+            <img src="./img/map.svg" alt="map" />
+            <p class="text">Наб. реки Фонтанки 10-15</p>
+          </div>
+
+          <div class="box">
+            <img src="./img/phone-call.svg" alt="phone-call" />
+            <p class="text">8 (812) 123-45-67</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="testimonials" id="testimonials" >
+        <div class="block">
+          <img class="img" src="./img/bench.svg" alt="bench" />
+
+          <p class="text">Рядом исторические парки и скверы</p>
+        </div>
+
+        <div class="block">
+          <img class="img" src="./img/building.svg" alt="building" />
+
+          <p class="text">Полностью обустроенный</p>
+        </div>
+
+        <div class="block">
+          <img class="img" src="./img/fountain.svg" alt="fountain" />
+
+          <p class="text">10 фонтанов на территории</p>
+        </div>
+
+        <div class="block">
+          <img class="img" src="./img/bicycle.svg" alt="bicycle" />
+
+          <p class="text">
+            6 км <br />
+            велодорожек
+          </p>
+        </div>
+      </section>
+
+      <section class="appartments" id="appartments" >
+        <h2 class="title">Наши квартиры</h2>
+
+        <div class="container">
+          <div class="block_1">
+            <p class="text">Лофт — 3 этажа</p>
+          </div>
+
+          <div class="block_2">
+            <p class="text">Лофт — 2 этажа</p>
+          </div>
+
+          <div class="block_1">
+            <p class="text">Лофт — 3 этажа</p>
+          </div>
+
+          <div class="block_2">
+            <p class="text">Лофт — 2 этажа</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="cta" >
+        <div class="container">
+          <div class="block_1">
+            <h2 class="subtitle">Хотите посмотреть?</h2>
+
+            <p class="text">
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+              вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+              на латинице с начала XVI века. В то время некий безымянный
+              печатник создал большую коллекцию размеров и форм шрифтов,
+              используя Lorem Ipsum для распечатки образцов.
+            </p>
+          </div>
+
+          <div class="block_2">
+            <input class="inp" type="text" placeholder="Ваше имя" />
+
+            <input class="inp" type="text" placeholder="Ваш телефон" />
+
+            <p class="text">
+              *Мы никому не передаем ваши данные. И не сохраняем ваш номер в
+              базу.
+            </p>
+
+            <button class="btn" type="button">Посмотреть район</button>
+          </div>
+        </div>
+      </section>
+
+      <section data-aos="fade-up" data-aos-duration="3000" class="video" id="video" >
+        <iframe
+          class="iframe"
+          src="https://www.youtube.com/embed/bn0Kh9c4Zv4"
+          title="7 Дней Исследования Подземного Города"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section class="map">
+        <h2 class="subtitle">Район на карте</h2>
+
+        <iframe
+          class="iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.6477928647246!2d69.28139607591926!3d41.31652510038777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef5200a480655%3A0xeabc5e2bd1cdaae9!2sIT-Academy!5e0!3m2!1sru!2s!4v1729951708723!5m2!1sru!2s"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
+      <section class="cta_form" id="cta_form" >
+        <h2 class="subtitle">Есть вопросы?</h2>
+
+        <div class="block">
+          <p class="text">
+            *Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.
+          </p>
+
+          <input class="inp" type="text" placeholder="Ваше имя" />
+
+          <input class="inp" type="text" placeholder="Ваш телефон" />
+
+          <button class="btn" type="button">Посмотреть район</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <img class="logo" src="./img/logo.svg" alt="logo" />
+
+        <nav class="block_1">
+          <a href="">О комплексе</a>
+          <a href="">Район</a>
+          <a href="">Каталог квартир</a>
+          <a href="">Ипотека</a>
+          <a href="">Контакты</a>
+        </nav>
+
+        <nav class="block_1">
+          <a href="">О комплексе</a>
+          <a href="">Район</a>
+          <a href="">Каталог квартир</a>
+          <a href="">Ипотека</a>
+          <a href="">Контакты</a>
+        </nav>
+
+        <div class="block_2">
+          <p class="text">Адрес: Наб. реки Фонтанки 10-15</p>
+          <p class="text">Телефон: 8 (812) 123-45-67</p>
+          <p class="text">Отдел продаж: 10:00 - 20:00</p>
+          <p class="text">E-mail: <span>vip@housevip.ru</span></p>
+
+          <nav class="box">
+            <a target="_blank" href="">
+              <img src="./img/youtube.svg" alt="youtube" />
+            </a>
+
+            <a target="_blank" href="">
+              <img src="./img/vk.svg" alt="vk" />
+            </a>
+
+            <a target="_blank" href="">
+              <img src="./img/facebook.svg" alt="facebook" />
+            </a>
+
+            <a target="_blank" href="">
+              <img src="./img/instagram.svg" alt="instagram" />
+            </a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
